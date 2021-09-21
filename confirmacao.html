@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Projeto Itech - Cadastro Efetuado</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script>
+        function pegarnomeemail() {
+            var url = window.location.toString();
+            url = url.replace("%40", "@");
+            var fields = url.split("?")[1].split("&");
+            var nome = fields[0].split("=")[1];
+            var email = fields[1].split("=")[1];
+
+            document.getElementById("nome").innerHTML = nome;
+            document.getElementById("email").innerHTML = email;
+        }
+    </script>
+</head>
+    <body onload="pegarnomeemail();">
+            <div id="conteudo">
+            <div id="cabecalho">
+                <h1>Projeto Gama - Coronavírus</h1>
+                </div>
+        
+            <div id="navbar">
+                <div> <a href="index.html">Home</a></div>
+                <div> <a href="contato.html">Contato</a></div>
+                <div> <a href="saiba.html">Saiba Mais</a></div>
+                <div> <a href="sobre.html">Sobre os autores</a></div>
+            </div>
+
+            <div id="nome"></div>
+            <div id="email"></div>
+
+            </div>
+</body>
+</html>
