@@ -1,0 +1,116 @@
+body{
+    background-color: #C6FFF1;
+font-family: arial;
+}
+
+h1{
+    text-align: center;
+}
+
+#cabecalho{
+    border: black 1px solid;
+    border-radius: 10px;
+    padding-left: 50px;
+    margin-bottom: 50px;
+    box-shadow: black 2px 2px 5px;
+    background-color: #ccffcc;
+    }
+
+    a{
+        font-family: 'Lucida Sans';
+        color:white;
+        text-decoration: unset;
+        background-color: gray;
+    }
+
+    a:hover{
+        color: black;
+    }
+
+#navbar{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+    background-color: gray;
+        
+}
+
+#enviar{
+    margin: 20px;
+    margin-left: 50%;
+}
+
+.form-element{
+    padding: 10px;
+    text-align: center;
+    font-size: larger;
+
+}
+
+.freebirdFormviewerComponentsQuestionBaseHeader{
+
+    width: 50%;
+    border: 1px;
+    
+    }
+
+    .quantumWizTextinputPaperinputInput{
+        width: 50%;
+    }
+
+      h2{
+          padding: 10px;
+          margin-bottom: 5px;
+      }
+
+      #noticias{
+          display: flex;
+          justify-content: space-between;
+      }
+
+      .noticiasdestaque{
+          border:gray 1px solid;
+          
+          margin-left: 10x;
+          margin-right: 5px;
+          box-shadow: gray 2px 2px 3px;
+          padding: 50px;
+          padding-left: 30px;
+          height: fit-content;
+          
+          
+          }
+
+          .player{
+            position:relative;
+            width:"100%";
+                    }
+
+        .player .imgBx{
+            position: relative;
+            width: 100px;
+            height: 150px;
+            padding: 10px;
+        }
+
+        .player .imgBx img{
+            position: absolute;
+            top: 10px;
+            left: 10px;;
+            width: 130px;
+           
+        }
+
+        .audiodestaque{
+            padding: 10px;
+            width: 35%;
+            outline: none;
+        }
+
+          
+          #conteudo{
+              background-color: white;
+              margin-left: 5%;
+              margin-right: 5%;
+              padding:2%;
+          }

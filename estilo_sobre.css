@@ -1,0 +1,93 @@
+
+
+body {
+    background-color: #00664e;
+  }
+  
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: arial;
+  }
+  
+  p {
+    font-family: arial;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: gray;
+  }
+  
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 90%;
+    padding: 20px;
+    background-color: #79d2a6;
+    width: fit-content;
+    height: fit-content;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    color: black;
+  }
+
+  th {
+    border: 1px solid #dddddd;
+    font-size: 50px;
+    text-align: left;
+    padding: 20px;
+    color: black;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
+  <h2 style="clear:right">Sobre os autores</h2>
+
+<div class="clearfix">
+  <img class="img2" src="img/nay.jpg" alt="" width="170" height="170">
+  Profissão
+  Formação
+</div>
