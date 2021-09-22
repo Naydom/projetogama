@@ -154,14 +154,11 @@ margin-left: 5%;
     margin-top: 10px;
 }
 
-.autores{
-    font-weight: bold;
-}
-
 .subtitulos{
     font-weight: bold;
     text-align: center;
     font-size: 160%;
+    margin-top: 10px;
 }
 
 .corponoticias{
@@ -171,6 +168,41 @@ margin-left: 5%;
     font-size: 130%;
 }
 
+
+.imgsobre{
+  float: left;
+  margin-left: 50px;
+  width: 3%;
+}
+
+.formacao{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.dadossobre{
+    font-size: 130x;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
 #audio1{
  margin-left: 600px;
+}
+
+.img {
+    margin-left: 620px;
+   padding: 10px;
+   
+}
+
+.integrantes{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+    font-size: 30px;
 }
