@@ -3,7 +3,20 @@ body{
 font-family: arial;
 }
 
-h1{
+.titulos{
+    font-family: arial;
+    font-size: 300%;
+    text-align: center;
+}
+
+.noticiasdestaque{
+    font-family: arial;
+    font-size: 300%;
+    text-align: center;
+    color:red;
+}
+
+#logo{
     text-align: center;
 }
 
@@ -47,30 +60,39 @@ h1{
 
 }
 
-.freebirdFormviewerComponentsQuestionBaseHeader{
+.nome{
 
     width: 50%;
     border: 1px;
     
     }
 
-    .quantumWizTextinputPaperinputInput{
+    .email{
         width: 50%;
+        border: 1px;
     }
 
-      h2{
-          padding: 10px;
-          margin-bottom: 5px;
-      }
+     
+      .videoInicial{
+          margin-left: 35%;
+    }
 
-      #noticias{
-          display: flex;
-          justify-content: space-between;
-      }
+    .imgnoticias{
+        width: 30%;
+        height: 20%;
+        margin-left: 30%;
+    }
+
+    .geral{
+        border:gray 1px solid;
+        margin-left: 10x;
+        margin-top: 20px;
+        margin-right: 5px;
+        box-shadow: gray 2px 2px 3px;
+    }
 
       .noticiasdestaque{
           border:gray 1px solid;
-          
           margin-left: 10x;
           margin-right: 5px;
           box-shadow: gray 2px 2px 3px;
@@ -78,35 +100,21 @@ h1{
           padding-left: 30px;
           height: fit-content;
           
-          
           }
+
+          .imgPD{
+            border:gray 1px solid;
+            box-shadow: gray 2px 2px 3px;
+            padding: 30px;
+
+        }
 
           .player{
             position:relative;
             width:"100%";
                     }
 
-        .player .imgBx{
-            position: relative;
-            width: 100px;
-            height: 150px;
-            padding: 10px;
-        }
-
-        .player .imgBx img{
-            position: absolute;
-            top: 10px;
-            left: 10px;;
-            width: 130px;
-           
-        }
-
-        .audiodestaque{
-            padding: 10px;
-            width: 35%;
-            outline: none;
-        }
-
+  
           
           #conteudo{
               background-color: white;
@@ -114,3 +122,87 @@ h1{
               margin-right: 5%;
               padding:2%;
           }
+
+#videodestaque{
+margin-left: 5%;
+}
+ 
+
+ .linkref{
+     color: black;
+     background-color: transparent;
+     padding: 10px;
+ }
+ .linkref:hover{
+    color: red;
+}
+
+#tabsobre {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.recebe{
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dados{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.subtitulos{
+    font-weight: bold;
+    text-align: center;
+    font-size: 160%;
+    margin-top: 10px;
+}
+
+.corponoticias{
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
+    font-size: 130%;
+}
+
+
+.imgsobre{
+  float: left;
+  margin-left: 50px;
+  width: 3%;
+}
+
+.formacao{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.dadossobre{
+    font-size: 130x;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+
+#audio1{
+ margin-left: 600px;
+}
+
+.img {
+    margin-left: 620px;
+   padding: 10px;
+   
+}
+
+.integrantes{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 600px;
+    font-size: 30px;
+}
