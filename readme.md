@@ -4,4 +4,4 @@ Desenvolvimento de site com HTML e CSS.
 
 Aqui compartilhamos boas notícias sobre COVID-19.
 
-Desenvolvido por: Gisele, Luís, Nayara e Renato - Grupo 24.
+Desenvolvido por: Gisele, Luiz, Nayara e Renato - Grupo 24.
